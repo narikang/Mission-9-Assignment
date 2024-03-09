@@ -32,7 +32,7 @@ class Teams extends React.Component<Team> {
   }
 }
 
-function BandList() {
+function BasketballTeamList() {
   return (
     <div>
       {schools.map((BasketballTeam) => (
@@ -46,7 +46,7 @@ function App() {
   return (
     <div className="App">
       <Welcome />
-      <BandList />
+      <BasketballTeamList />
     </div>
   );
 }
