@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.card {
+  border: 1px solid #ddd; /* Light grey border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Some padding inside the card */
+  margin-bottom: 20px; /* Space between cards */
+  background-color: #f9f9f9; /* Light grey background */
+}
+
+.card h2 {
+  margin: 10px 0; /* Margins for the h2 to space out the card's text */
+}
