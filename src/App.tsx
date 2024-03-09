@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import schoolData from './CollegeBasketballTeams.json';
-import { StringLiteral } from 'typescript';
 
 interface Team {
   school: string;
